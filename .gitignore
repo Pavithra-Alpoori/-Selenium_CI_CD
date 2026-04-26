@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+se-python-env/
+.vpas_automation/
+pip-wheel-metadata/
+
+# --- Test & Reports ---
+reports/
+*.html
+*.xml
+*.json
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# --- PyCharm / JetBrains ---
+.idea/
+*.iml
+
+# --- VSCode ---
+.vscode/
+
+# --- OS / Misc ---
+.DS_Store
+Thumbs.db
+
+# --- Coverage / Build ---
+.coverage
+htmlcov/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# --- GitHub Actions cache ---
+.github/workflows/*.lock
