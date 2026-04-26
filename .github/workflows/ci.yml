@@ -1,5 +1,6 @@
 name: selenium_tutorial
 on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
